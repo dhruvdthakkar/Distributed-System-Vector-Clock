@@ -14,6 +14,7 @@ Created client server application to demonstrate vector clock concept to synchro
 Steps: 
 
 ❖	Open on IntelliJ IDE or other IDE
+
 ❖	Set up JDK 11
 
 ❖	Run server: Go to the server folder, find server.java file and run it.
@@ -21,16 +22,25 @@ Steps:
 ❖	It will open server UI
 
 ❖	Click on connect to start the server
+
 ❖	Client: Open 3 of the client folder on 3 different IntelliJ windows one after one and Select the username and produce the output as describe in requirements. 
+
 ❖	Find Main.java file in each client’s windows and run it. 
+
 ❖	Select the new username 
+
 ❖	Fetch the Vector clock’s updated data from button.
 
 I used some or learned code from the following websites. 
 
 https://www.geeksforgeeks.org/socket-programming-in-java/
+
 https://way2java.com/networking/chat-program-two-way-communication/
+
 https://www.callicoder.com/javafx-registration-form-gui-tutorial/
+
 https://www.geeksforgeeks.org/multi-threaded-chat-application-set-1/
+
 https://www.javatpoint.com/javafx-checkbox
+
 https://www.javatpoint.com/how-to-create-a-file-in-java
