@@ -2,9 +2,13 @@
 Created client server application to demonstrate vector clock concept to synchronize the servers in Distributed System.
 
 • Implemented a message service consisting of a server process and three clients. Each client process will connect to the server over a socket. The server would be able to handle all three clients concurrently
+
 • Clients will maintain vector clocks, and the messages exchanged via the message service will be constrained exclusively to those vector clocks
+
 • Each client will maintain a vector clock. Every two to ten seconds, each client will randomly choose one other client (e.g., a unicast) and send that client its vector clock
+
 • When a client sends a message, it will print the intended recipient of the message, as well as its updated vector clock, to its respective GUI. When a client receives a message, it will update and print its vector clock. This is how it maintains synchronization by using vector clocks
+
 • Technology and concepts: Java, JavaFX, Multithreading, Synchronization in the distributed system, Vector clock.
 
 Steps: 
